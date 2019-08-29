@@ -12,6 +12,7 @@ class TankContainer extends Component {
     }
 
     render(){
+        console.log('something something dark side')
         console.log('tank container render firing')
         console.log(this.state.tanksArray)
         let tankComponents = this.state.tanksArray.map(
